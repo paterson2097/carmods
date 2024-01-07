@@ -1,0 +1,67 @@
+<Html>  
+<head>   
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body bgcolor="Lightskyblue">  
+<br>  
+<br>  
+<form>  
+  
+<label> Firstname </label>         
+<input type="text" name="firstname" size="15"/> <br> <br>  
+<label> Middlename: </label>     
+<input type="text" name="middlename" size="15"/> <br> <br>  
+<label> Lastname: </label>         
+<input type="text" name="lastname" size="15"/> <br> <br>  
+  
+<label>   
+Cars :  
+</label>   
+<select>  
+<option value="Bmw m2">Bmw m2</option>  
+<option value="Bmw m3">Bmw m3</option>  
+<option value="Bmw m5">Bmw m5</option>  
+<option value="gt-r35">gt-r35</option>  
+<option value="supra">supra</option>  
+<option value="370z">370z</option>  
+<option value="skyline">skyline</option>  
+</select>  
+  
+<br>  
+<br>  
+<label>   
+service :  
+</label><br>  
+<input type="radio" name="ecu flash"/> ecu flash <br>  
+<input type="radio" name="tcu flash"/> tcu flash <br>
+<input type="radio" name="tune"/> tune <br>
+<input type="radio" name="doen pipes"/> down pipes <br>
+<input type="radio" name="full system exhaust"/> full system exhaust <br>
+<input type="radio" name="dyno"/> dyno  
+<br>  
+<br>  
+  
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br> <br>  
+Address  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> <br>  
+Email:  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+Password:  
+<input type="Password" id="pass" name="pass"> <br>   
+<br> <br>  
+Re-type password:  
+<input type="Password" id="repass" name="repass"> <br> <br>  
+<input type="button" value="Submit"/>  
+</form>  
+</body>  
+</html>  
